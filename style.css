@@ -1,0 +1,124 @@
+body {
+	background-color: #333;
+}
+
+.topnav {
+	background-color: #2A2828;
+	overflow: hidden;
+	height: 50px;
+}
+
+.topnav a {
+	margin-left: 5px;
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding:14px 16px;
+	text-decoration: none;
+	font-size: 18px;
+	height: 15px;
+	margin-top: 3px;
+}
+
+.topnav a:hover {
+	background-color: #08B430;
+
+}
+
+input#search {
+	background-color: #2A2828;
+	margin-left: 58%;
+	margin-top: 13px;
+	border-width: 0;
+	height: 25px;
+	border-radius: 3px;
+	color: #f2f2f2;
+	font-size: 13px;
+	text-align: center;
+	outline: none;
+}
+
+.main {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+
+.main2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.img1 {
+	margin: 10px;
+}
+
+.img2 {
+	margin: 10px;	
+}
+
+.img3 {
+	margin: 10px;
+}
+
+.img4 {
+	margin: 10px;
+}
+
+.img1:hover {
+	cursor: pointer;
+	opacity: 0.1;
+	transition-duration: 0.6s;
+
+}
+
+.img2:hover {
+	cursor: pointer;
+	opacity: 0.1;
+	transition-duration: 0.6s;
+}
+
+.img3:hover {
+	cursor: pointer;
+	opacity: 0.1;
+	transition-duration: 0.6s;
+}
+
+.img4:hover {
+	cursor: pointer;
+	opacity: 0.1;
+	transition-duration: 0.6s;
+}
+
+#search:hover {
+	cursor: help;
+	opacity:0;
+	transition-duration: 1s;
+	transform: translateX(-10px);
+}
+
+#instagram:hover {
+	opacity: 0;
+	transform: scale(1);
+	transition-duration: 1s;
+	background-color: #C113B7;
+}
+
+#instagram {
+	margin-left: 10px;
+}
+
+#facebook:hover {
+	opacity: 0;
+	transform: scale(1);
+	transition-duration: 1s;
+	background-color: #0A1CA1;
+}
+
+#facebook {
+	margin-left: 100px;
+}
